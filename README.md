@@ -4,7 +4,7 @@ Requires C++11 and [Base conversion](https://github.com/nelsyeung/base-conversio
 
 # Usage
 ```cpp
-n::permute(int n, int k, void (*f)(const std::string &))
+n::permute(int n, int k, void (*f)(const std::string &));
 n::permute(3, 2, own_func);
 ```
 
