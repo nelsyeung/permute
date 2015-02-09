@@ -3,7 +3,7 @@
 
 #include <cmath>
 #include <string>
-#include "../base-conversion/base_conversion.hpp"
+#include "base_conversion.hpp"
 
 namespace n {
     void permute(int n, int k, void (*f)(const std::string &)) {
