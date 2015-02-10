@@ -6,7 +6,7 @@ Requires C++11 and [Base Conversion](https://github.com/nelsyeung/base-conversio
 ```cpp
 n::permute(int n, int k, void (*f)(const std::string &));
 n::permute(3, 2, own_func);
-returns 0 if ran successfully and -1 otherwise
+// returns 0 if ran successfully and -1 otherwise
 ```
 
 # Full example
@@ -35,3 +35,7 @@ Output:
 110
 111
 ```
+
+# Future work
+1. Add other types of permutation
+2. A method of passing extra arguments to the function
